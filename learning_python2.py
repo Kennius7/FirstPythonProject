@@ -1,9 +1,8 @@
-'''Creating a translator function
-This program is cool'''
+# Creating a translator function
+# This program is cool
 
 
-
-def translator (phrase):
+def translator(phrase):
     translation = ""
     for character in phrase:
         if character.lower() in "a":
@@ -20,5 +19,6 @@ def translator (phrase):
             translation = translation + character
 
     return translation
+
 
 print(translator(input("Type in a word or sentence: ")))
